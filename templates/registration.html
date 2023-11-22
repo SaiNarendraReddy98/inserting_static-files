@@ -1,0 +1,80 @@
+{% load static %}
+<!Doctype html>
+<html>
+<head>
+	<title>student registration form</title>
+    <link rel="stylesheet" href="{% static 'css/c3registration.css' %}">
+</head>
+<body>
+	<h1>STUDENT REGISTRATION FORM</h1>
+	<form>
+		<fieldset>
+			<table>
+				<tr>
+					<td><label>Frist name</label></td>
+					<td><input type="text">(max 30 characters a-z and A-Z)</td>
+				</tr>
+				<tr>
+					<td><label>Last name</label></td>
+					<td><input type="text">(max 30 characters A-Z and a-z)</td>
+				</tr>
+				<tr>
+					<td><label>Date of Birth</label></td>
+					<td><input type="date of birth" name=""></td>
+				</tr>
+				<tr>
+					<td><label>Mobile number</label></td>
+					<td><input type="number">(10 digit number)</td>
+				</tr>
+				<tr>
+					<td><label>Gender</label></td>
+					<td><input type="radio" name="k">Male</input>
+					    <input type="radio" name="k">female</input>
+					</td>
+				</tr>
+				<tr>
+					<td><label>Address</label></td>
+					<td><textarea rows="4" cols="30"></textarea></td>
+				</tr>
+				<tr>
+					<td><label>City</label></td>
+					<td><input type="text">(max 30 characters A-Z)</td>
+				</tr>
+				<tr>
+					<td><label>Pincode</label></td>
+					<td><input type="number">(6 digit number)</td>
+				</tr>
+				<tr>
+					<td><label>State</label></td>
+					<td><input type="text">(max 30 cahracters A-Z)</td>
+				</tr>
+				<tr>
+					<td><label>Country</label></td>
+					<td>
+						<select>
+							<option>India</option>
+						    <option>Austrila</option>
+						    <option>USA</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label>Hobbies</label></td>
+					<td><input type="radio" name="">Dancing
+						<input type="radio" name="">Swimming
+						<input type="radio" name="">skating
+					</td>
+				</tr>
+				<tr>
+					<td><label>others</label></td>
+					<td><input type="text" name=""></td>
+					<td>
+						<button id="a">submit</button>
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+
+</body>
+</html>
